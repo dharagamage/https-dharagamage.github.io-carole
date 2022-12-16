@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="products.xsl"?>
+<!DOCTYPE products[
+  <!ELEMENT products (record*)>
+  <!ELEMENT record (productNumber, productName, productDescripttion, productPrice, productImage, productSound)>
+  <!ELEMENT productNumber (#PCDATA)>
+  <!ELEMENT productName (#PCDATA)>
+  <!ELEMENT productDescription (#PCDATA)>
+  <!ELEMENT productPrice (#PCDATA)>
+  <!ELEMENT productImage (#PCDATA)>
+  <!ELEMENT productSound (#PCDATA)>
+]>
+<products>
+  <record>
+    <productNumber>1</productNumber>
+    <productName>Shift dress</productName>
+    <productDescription>Simple shift, available in two colours. 100% cotton.</productDescription>
+    <productPrice>45.00</productPrice>
+    <productImage>shiftDress.gif</productImage>
+    <productSound>shiftDress.mp3</productSound>
+  </record>
+  <record>
+    <productNumber>2</productNumber>
+    <productName>Wraparound skirt</productName>
+    <productDescription>Simple wraparound skirt, available in two colours. 100% cotton.</productDescription>
+    <productPrice>30.00</productPrice>
+    <productImage>wraparoundSkirt.gif</productImage>
+    <productSound>shiftDress.mp3</productSound>
+  </record>  
+  <record>
+    <productNumber>3</productNumber>
+    <productName>Cardigan</productName>
+    <productDescription>Winter cardigan, available in two colours. 100% wool.</productDescription>
+    <productPrice>70.00</productPrice>
+    <productImage>cardigan.gif</productImage>
+    <productSound>shiftDress.mp3</productSound>
+  </record>  
+  <record>
+    <productNumber>4</productNumber>
+    <productName>Dress hat</productName>
+    <productDescription>Stylish dress hat, available in two colours. 100% linen.</productDescription>
+    <productPrice>20.00</productPrice>
+    <productImage>dressHat.gif</productImage>
+    <productSound>shiftDress.mp3</productSound>
+  </record>
+</products>
